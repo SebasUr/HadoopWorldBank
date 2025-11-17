@@ -2,6 +2,7 @@
 set -e
 
 sudo yum install git -y
+hdfs dfs -rm -r -f /user/hadoop/HadoopWorldBank
 git clone https://github.com/SebasUr/HadoopWorldBank
 
 LOCAL_INPUT="/home/hadoop/HadoopWorldBank/data_prepared/WDICSV_PREPARED.csv"
