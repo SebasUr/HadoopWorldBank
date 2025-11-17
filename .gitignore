@@ -1,0 +1,17 @@
+# Datos grandes / crudos
+data_raw/WDI_CSV_10_08.zip
+data_raw/WDICSV.csv
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+terraform.tfvars
+terraform.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl

@@ -1,0 +1,4 @@
+my_ip_cidr = "TU.IP.PUBLICA/32"
+project_name = "wdi-mapreduce"
+emr_service_role_arn           = "arn:aws:iam::471112974741:role/EMR_DefaultRole"
+emr_ec2_instance_profile_arn   = "arn:aws:iam::471112974741:instance-profile/EMR_EC2_DefaultRole"
