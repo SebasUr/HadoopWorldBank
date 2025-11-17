@@ -1,0 +1,1 @@
+scp -i "./EMR.pem" ../hdfs_script/load_to_hdfs.sh hadoop@$(terraform output -raw emr_master_public_dns):~
