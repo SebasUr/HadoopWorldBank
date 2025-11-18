@@ -54,11 +54,9 @@ variable "emr_core_instance_count" {
 variable "emr_service_role_arn" {
   description = "ARN del rol de servicio EMR (por ejemplo, EMR_DefaultRole) ya existente en la cuenta"
   type        = string
-  default     = "arn:aws:iam::471112974741:role/EMR_DefaultRole"
 }
 
 variable "emr_ec2_instance_profile_arn" {
   description = "ARN del instance profile de EC2 para EMR (por ejemplo, EMR_EC2_DefaultRole) ya existente en la cuenta"
   type        = string
-  default     = "arn:aws:iam::471112974741:instance-profile/EMR_EC2_DefaultRole"
 }
